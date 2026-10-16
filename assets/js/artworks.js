@@ -11,8 +11,8 @@ window.HFB_ARTWORKS = [
     "signed": null,
     "category": "paint",
     "description": "Created by layering saturated acrylic paint and fine ink linework, “The Abyssal Howl” captures the intensity of primal expression. Every stroke around the central, vortex-like mouth was painted with intentional depth to draw the viewer into a portal of subconscious thought. The balance between bright orange background tones and deep black ink work is a deliberate study of contrast, raw emotion, and surreal character design.",
-    "full": "images/full/the-abyssal-howl.jpg",
-    "thumb": "images/thumb/the-abyssal-howl.jpg",
+    "full": "images/full/the-abyssal-howl.jpg?v=3",
+    "thumb": "images/thumb/the-abyssal-howl.jpg?v=3",
     "w": 570,
     "h": 760,
     "fw": 1350,
@@ -29,12 +29,12 @@ window.HFB_ARTWORKS = [
     "signed": "15 Feb 2015",
     "category": "paint",
     "description": "Built with dynamic expressionist brushstrokes, this piece portrays the relationship between nature and wildlife. Warm earthy ochres and soft blush pinks are set against a deep forest floor, and the energetic motion in the background accentuates the physical power and silent communication between two bears in their natural habitat.",
-    "full": "images/full/guardians-of-the-wilderness.jpg",
-    "thumb": "images/thumb/guardians-of-the-wilderness.jpg",
+    "full": "images/full/guardians-of-the-wilderness.jpg?v=3",
+    "thumb": "images/thumb/guardians-of-the-wilderness.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 514,
+    "fw": 1800,
+    "fh": 1216
   },
   {
     "no": 3,
@@ -47,12 +47,12 @@ window.HFB_ARTWORKS = [
     "signed": "1 Feb 2015",
     "category": "paint",
     "description": "Inspired by quiet evening strolls through city parks, this painting uses swirling, luminous impasto brushwork to recreate the glowing aura of streetlamps against a twilight sky. The composition guides the eye down a rain-slicked path framed by silhouetted trees and falling autumn leaves. Each swirl of yellow and blue was placed to evoke nostalgia and calm reflection.",
-    "full": "images/full/autumn-evening-walk.jpg",
-    "thumb": "images/thumb/autumn-evening-walk.jpg",
+    "full": "images/full/autumn-evening-walk.jpg?v=3",
+    "thumb": "images/thumb/autumn-evening-walk.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 526,
+    "fw": 1800,
+    "fh": 1245
   },
   {
     "no": 4,
@@ -65,12 +65,12 @@ window.HFB_ARTWORKS = [
     "signed": "6 Mar 2015",
     "category": "mixed",
     "description": "An abstract exploration of perception and nature, “The Forest Mind” balances vibrant color layering with delicate linework. Its focal point — a wide, watching eye framed by organic branch structures — was built up with contrasting cold blues and fiery reds. The work explores how human emotion weaves into natural landscapes, making every line and sweep of paint an expression of internal thought.",
-    "full": "images/full/the-forest-mind.jpg",
-    "thumb": "images/thumb/the-forest-mind.jpg",
+    "full": "images/full/the-forest-mind.jpg?v=3",
+    "thumb": "images/thumb/the-forest-mind.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 532,
+    "fw": 1800,
+    "fh": 1260
   },
   {
     "no": 5,
@@ -83,12 +83,12 @@ window.HFB_ARTWORKS = [
     "signed": "6 Mar 2015",
     "category": "mixed",
     "description": "Quick, decisive charcoal lines overlaid on warm, glowing acrylic underpainting reveal hidden human forms. This abstract portrait study delves into human connection, memory, and warmth, while deep blacks surrounding the glowing center tones create a dramatic, cathedral-like atmosphere.",
-    "full": "images/full/faces-in-the-ember.jpg",
-    "thumb": "images/thumb/faces-in-the-ember.jpg",
+    "full": "images/full/faces-in-the-ember.jpg?v=3",
+    "thumb": "images/thumb/faces-in-the-ember.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 534,
+    "fw": 1800,
+    "fh": 1265
   },
   {
     "no": 6,
@@ -101,12 +101,12 @@ window.HFB_ARTWORKS = [
     "signed": "18 Feb 2015",
     "category": "paint",
     "description": "Painted on a vibrant teal ground, this abstract work uses sweeping curved gestures to construct an eye-like lens around a central green and pink sanctuary. Careful management of negative space and bold line structure creates the feeling of looking through a window into a hidden garden, while energetic black latticework anchors the fluid movement of the inner colors.",
-    "full": "images/full/oasis-in-blue.jpg",
-    "thumb": "images/thumb/oasis-in-blue.jpg",
+    "full": "images/full/oasis-in-blue.jpg?v=3",
+    "thumb": "images/thumb/oasis-in-blue.jpg?v=3",
     "w": 760,
-    "h": 528,
-    "fw": 1024,
-    "fh": 711
+    "h": 520,
+    "fw": 1800,
+    "fh": 1231
   },
   {
     "no": 7,
@@ -118,13 +118,14 @@ window.HFB_ARTWORKS = [
     "price": 500,
     "signed": "8 Mar 2015",
     "category": "paint",
-    "description": "A dynamic expressionist depiction of a superhero swooping over a stylized city skyline, combining pop-culture homage with fine-art paint application. Fast, directional brushstrokes convey motion, light, and power, and the figure blends into the atmospheric background to highlight the hero’s connection to the city they protect.",
-    "full": "images/full/guardian-of-the-metropolis.jpg",
-    "thumb": "images/thumb/guardian-of-the-metropolis.jpg",
+    "description": "A dynamic expressionist tribute to Batman, the caped crusader swooping over a stylized, Gotham-like city skyline. It combines pop-culture homage with fine-art paint application: fast, directional brushstrokes convey motion, light, and power, and the Dark Knight blends into the atmospheric background to highlight his connection to the city he protects.",
+    "full": "images/full/guardian-of-the-metropolis.jpg?v=3",
+    "thumb": "images/thumb/guardian-of-the-metropolis.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 558,
+    "fw": 1800,
+    "fh": 1321,
+    "subtitle": "A Batman tribute"
   },
   {
     "no": 8,
@@ -137,12 +138,12 @@ window.HFB_ARTWORKS = [
     "signed": "15 Feb 2015",
     "category": "paint",
     "description": "A study in complementary colors: a striking red and pink aquatic silhouette against swirling deep-emerald water. The yellow paper border is intentionally integrated into the composition to frame the central figure, and each sweep of white highlight across the red body represents light filtering down through ocean currents.",
-    "full": "images/full/crimson-predator-in-emerald-deep.jpg",
-    "thumb": "images/thumb/crimson-predator-in-emerald-deep.jpg",
+    "full": "images/full/crimson-predator-in-emerald-deep.jpg?v=3",
+    "thumb": "images/thumb/crimson-predator-in-emerald-deep.jpg?v=3",
     "w": 760,
-    "h": 539,
-    "fw": 1024,
-    "fh": 726
+    "h": 519,
+    "fw": 1800,
+    "fh": 1229
   },
   {
     "no": 9,
@@ -155,12 +156,12 @@ window.HFB_ARTWORKS = [
     "signed": "6 Mar 2015",
     "category": "paint",
     "description": "Themes of origin and potential radiate from a central, glowing swirl of fiery reds, oranges, and stark white streaks. Encased in dark, protective contours, the work balances chaos and creation, with every stroke placed to suggest movement and light radiating from a central core.",
-    "full": "images/full/cosmic-embryo.jpg",
-    "thumb": "images/thumb/cosmic-embryo.jpg",
+    "full": "images/full/cosmic-embryo.jpg?v=3",
+    "thumb": "images/thumb/cosmic-embryo.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 513,
+    "fw": 1800,
+    "fh": 1215
   },
   {
     "no": 10,
@@ -169,16 +170,16 @@ window.HFB_ARTWORKS = [
     "medium": "Gouache / tempera on heavy paper",
     "sizeCm": "35 × 50 cm",
     "sizeIn": "13.8 × 19.7 in",
-    "price": 390,
+    "price": 450,
     "signed": "9 Mar 2015",
     "category": "paint",
     "description": "A central figure in vivid red and ultramarine bursts from a radiating yellow aura. The surrounding silver and black cross-hatched strokes evoke rhythmic sound waves and light — a celebration of life, motion, and intense human expression.",
-    "full": "images/full/the-kinetic-dancer.jpg",
-    "thumb": "images/thumb/the-kinetic-dancer.jpg",
+    "full": "images/full/the-kinetic-dancer.jpg?v=3",
+    "thumb": "images/thumb/the-kinetic-dancer.jpg?v=3",
     "w": 760,
-    "h": 563,
-    "fw": 1024,
-    "fh": 759
+    "h": 525,
+    "fw": 1800,
+    "fh": 1244
   },
   {
     "no": 11,
@@ -191,12 +192,12 @@ window.HFB_ARTWORKS = [
     "signed": "15 May 2015",
     "category": "water",
     "description": "Set against a vivid magenta wash, this panoramic surrealist landscape uses fine ink linework to detail silhouetted trees and subtle human forms traversing a quiet shore. The focal point — a weathered skull — is painted in soft watercolor gradients that speak to light and the passage of time, balancing delicate washes with dark structural framing.",
-    "full": "images/full/echoes-in-magenta.jpg",
-    "thumb": "images/thumb/echoes-in-magenta.jpg",
+    "full": "images/full/echoes-in-magenta.jpg?v=3",
+    "thumb": "images/thumb/echoes-in-magenta.jpg?v=3",
     "w": 760,
-    "h": 404,
-    "fw": 1024,
-    "fh": 545
+    "h": 346,
+    "fw": 1800,
+    "fh": 820
   },
   {
     "no": 12,
@@ -209,12 +210,12 @@ window.HFB_ARTWORKS = [
     "signed": "6 Mar 2015",
     "category": "paint",
     "description": "An expressive still life of a glowing fruit, crafted with thick, layered brushwork that captures volume and light. Warm yellows, deep crimsons, and cool teals create contrast between the central form and the textured background, while circular chalk-white outlines draw the eye into the rich interior colors.",
-    "full": "images/full/forbidden-fruit.jpg",
-    "thumb": "images/thumb/forbidden-fruit.jpg",
+    "full": "images/full/forbidden-fruit.jpg?v=3",
+    "thumb": "images/thumb/forbidden-fruit.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 532,
+    "fw": 1800,
+    "fh": 1260
   },
   {
     "no": 13,
@@ -227,12 +228,12 @@ window.HFB_ARTWORKS = [
     "signed": "20 Feb 2015",
     "category": "paint",
     "description": "A bold, expressionist take on marine life, layering energetic primary colors beneath thick, sweeping dark outlines. Visible textures and bone-like structural lines convey strength, resilience, and movement under water, and the harmony of blue, red, and emerald under dark accents gives the piece unmistakable impact.",
-    "full": "images/full/abyssal-fish.jpg",
-    "thumb": "images/thumb/abyssal-fish.jpg",
+    "full": "images/full/abyssal-fish.jpg?v=3",
+    "thumb": "images/thumb/abyssal-fish.jpg?v=3",
     "w": 760,
-    "h": 542,
-    "fw": 1024,
-    "fh": 730
+    "h": 504,
+    "fw": 1800,
+    "fh": 1193
   },
   {
     "no": 14,
@@ -245,12 +246,12 @@ window.HFB_ARTWORKS = [
     "signed": "10 Feb 2015",
     "category": "paint",
     "description": "A dramatic moment between a land predator and an aquatic creature, exploring where two natural worlds meet. Directional brushwork in the emerald water builds tension and motion, and the warm ochre of the bear against the cool silver of the fish anchors the narrative.",
-    "full": "images/full/encounter-at-sea.jpg",
-    "thumb": "images/thumb/encounter-at-sea.jpg",
+    "full": "images/full/encounter-at-sea.jpg?v=3",
+    "thumb": "images/thumb/encounter-at-sea.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 506,
+    "fw": 1800,
+    "fh": 1197
   },
   {
     "no": 15,
@@ -263,12 +264,12 @@ window.HFB_ARTWORKS = [
     "signed": "6 Mar 2015",
     "category": "water",
     "description": "An intricate abstract narrative filled with whimsical sea life, coral formations, and flowing aquatic pathways. Built up layer by layer — fluid watercolor washes first, then precise black ink lines describing an octopus, fish, and underwater foliage — it captures a bustling ecosystem with discoveries in every corner.",
-    "full": "images/full/reef-sanctuary.jpg",
-    "thumb": "images/thumb/reef-sanctuary.jpg",
+    "full": "images/full/reef-sanctuary.jpg?v=3",
+    "thumb": "images/thumb/reef-sanctuary.jpg?v=3",
     "w": 760,
-    "h": 553,
-    "fw": 1024,
-    "fh": 745
+    "h": 524,
+    "fw": 1800,
+    "fh": 1240
   },
   {
     "no": 16,
@@ -281,12 +282,12 @@ window.HFB_ARTWORKS = [
     "signed": "17 Feb 2015",
     "category": "water",
     "description": "Tall silhouetted tree trunks frame a vibrant, multi-layered forest floor washed in soft violet, turquoise, and gold. Detailed ink hatching and playful line figures add narrative among the foliage, and the balance of transparent washes with strong verticals gives the piece a serene, storybook quality.",
-    "full": "images/full/twilight-sanctuary.jpg",
-    "thumb": "images/thumb/twilight-sanctuary.jpg",
+    "full": "images/full/twilight-sanctuary.jpg?v=3",
+    "thumb": "images/thumb/twilight-sanctuary.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 526,
+    "fw": 1800,
+    "fh": 1246
   },
   {
     "no": 17,
@@ -299,12 +300,12 @@ window.HFB_ARTWORKS = [
     "signed": "6 Mar 2015",
     "category": "mixed",
     "description": "A moody, textured abstract of dense, brooding grey and olive layers interwoven with flashes of red, yellow, and white. A central dark loop anchors the chaotic movement around it. Painted with emotional weight, the work explores complex inner thoughts, refuge, and protection.",
-    "full": "images/full/the-obsidian-nest.jpg",
-    "thumb": "images/thumb/the-obsidian-nest.jpg",
+    "full": "images/full/the-obsidian-nest.jpg?v=3",
+    "thumb": "images/thumb/the-obsidian-nest.jpg?v=3",
     "w": 760,
-    "h": 534,
-    "fw": 1024,
-    "fh": 719
+    "h": 516,
+    "fw": 1800,
+    "fh": 1222
   },
   {
     "no": 18,
@@ -317,12 +318,12 @@ window.HFB_ARTWORKS = [
     "signed": "10 Feb 2015",
     "category": "paint",
     "description": "Geometric grid structures meet a free-flowing concentric spiral in a study of order versus momentum. On the right, a tightly wound yellow and grey vortex pulls the viewer inward; on the left, a cubist-inspired framework of red, white, and blue planes builds architecture. Every division of space was plotted to create dialogue across the sheet.",
-    "full": "images/full/construct-and-spiral.jpg",
-    "thumb": "images/thumb/construct-and-spiral.jpg",
+    "full": "images/full/construct-and-spiral.jpg?v=3",
+    "thumb": "images/thumb/construct-and-spiral.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 518,
+    "fw": 1800,
+    "fh": 1226
   },
   {
     "no": 19,
@@ -335,12 +336,12 @@ window.HFB_ARTWORKS = [
     "signed": "29 Mar 2015",
     "category": "drawing",
     "description": "An expressive narrative scene of a figure stepping out of a rustic stone doorway. Dense, textured layers of oil pastel set warm ochre stonework against the cool green and blue garden beyond the arch, with every stroke placed to create light, shadow, and architectural weight.",
-    "full": "images/full/emergence-at-the-stone-arch.jpg",
-    "thumb": "images/thumb/emergence-at-the-stone-arch.jpg",
+    "full": "images/full/emergence-at-the-stone-arch.jpg?v=3",
+    "thumb": "images/thumb/emergence-at-the-stone-arch.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 542,
+    "fw": 1800,
+    "fh": 1284
   },
   {
     "no": 20,
@@ -353,12 +354,12 @@ window.HFB_ARTWORKS = [
     "signed": "2015",
     "category": "paint",
     "description": "A powerful expressionist study of strength and emotion: a heroic figure emerges from a fiery background in bold, muscular strokes of cobalt and turquoise edged with sharp white highlights. The dynamic, angled posture against warm reds and browns gives the composition raw energy and presence.",
-    "full": "images/full/titan-in-blue.jpg",
-    "thumb": "images/thumb/titan-in-blue.jpg",
+    "full": "images/full/titan-in-blue.jpg?v=3",
+    "thumb": "images/thumb/titan-in-blue.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 513,
+    "fw": 1800,
+    "fh": 1214
   },
   {
     "no": 21,
@@ -371,12 +372,12 @@ window.HFB_ARTWORKS = [
     "signed": "2 Feb 2015",
     "category": "paint",
     "description": "A dark-ground still life of three expressive fruits in vibrant red, lime green, and deep plum. Thick, luminous highlights give each fruit volume and drama against the muted backdrop, while red streaks across the top tie the composition together with subtle energy.",
-    "full": "images/full/trio-of-harvest-fruits.jpg",
-    "thumb": "images/thumb/trio-of-harvest-fruits.jpg",
+    "full": "images/full/trio-of-harvest-fruits.jpg?v=3",
+    "thumb": "images/thumb/trio-of-harvest-fruits.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 511,
+    "fw": 1800,
+    "fh": 1210
   },
   {
     "no": 22,
@@ -389,12 +390,12 @@ window.HFB_ARTWORKS = [
     "signed": "6 Mar 2015",
     "category": "mixed",
     "description": "A celebration of classic motorsport design: the iconic Ford GT40 inside a whirlwind of technical notes, speed indicators, and directional brushstrokes. Fine technical drafting lines meet rapid, gestural paint to convey raw speed on the track.",
-    "full": "images/full/velocity-ford-gt40.jpg",
-    "thumb": "images/thumb/velocity-ford-gt40.jpg",
+    "full": "images/full/velocity-ford-gt40.jpg?v=3",
+    "thumb": "images/thumb/velocity-ford-gt40.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 524,
+    "fw": 1800,
+    "fh": 1240
   },
   {
     "no": 23,
@@ -407,8 +408,8 @@ window.HFB_ARTWORKS = [
     "signed": null,
     "category": "drawing",
     "description": "Sharp linear convergence draws the viewer down a corridor of cool, electric blues toward a fiery yellow figure silhouetted against a crimson sky and geometric terrain. Deliberate ink linework explores passage, transformation, and otherworldly landscapes, and the stark contrast between hall and horizon gives the piece an intense narrative focus.",
-    "full": "images/full/gateway-to-the-crimson-horizon.jpg",
-    "thumb": "images/thumb/gateway-to-the-crimson-horizon.jpg",
+    "full": "images/full/gateway-to-the-crimson-horizon.jpg?v=3",
+    "thumb": "images/thumb/gateway-to-the-crimson-horizon.jpg?v=3",
     "w": 570,
     "h": 760,
     "fw": 1350,
@@ -425,8 +426,8 @@ window.HFB_ARTWORKS = [
     "signed": null,
     "category": "paint",
     "description": "Whimsical character illustration meets a dramatic, starry cityscape: a central figure stands before towering blue skyscrapers beneath layered skies of indigo, swirling magenta, and teal, punctuated with tiny white stars. A textured green foreground grounds the scene and frames the character’s quiet gaze.",
-    "full": "images/full/urban-solitude-under-starlight.jpg",
-    "thumb": "images/thumb/urban-solitude-under-starlight.jpg",
+    "full": "images/full/urban-solitude-under-starlight.jpg?v=3",
+    "thumb": "images/thumb/urban-solitude-under-starlight.jpg?v=3",
     "w": 570,
     "h": 760,
     "fw": 1350,
@@ -443,12 +444,12 @@ window.HFB_ARTWORKS = [
     "signed": "5 Mar 2015",
     "category": "drawing",
     "description": "A serene, wide-format landscape study built from soft pastel textures and expressive dark tree silhouettes. Sky blues and warm golden highlights blend across gentle rolling hills to capture the quiet glow of late-afternoon light, while charcoal branches anchor the foreground and frame the meadow.",
-    "full": "images/full/pastoral-horizon.jpg",
-    "thumb": "images/thumb/pastoral-horizon.jpg",
+    "full": "images/full/pastoral-horizon.jpg?v=3",
+    "thumb": "images/thumb/pastoral-horizon.jpg?v=3",
     "w": 760,
-    "h": 422,
-    "fw": 1024,
-    "fh": 569
+    "h": 329,
+    "fw": 1800,
+    "fh": 779
   },
   {
     "no": 26,
@@ -461,12 +462,12 @@ window.HFB_ARTWORKS = [
     "signed": "20 Mar 2015",
     "category": "water",
     "description": "A panoramic composition combining fluid watercolor washes with rapid, expressive ink sketches of slender figures moving through a dreamlike forest. Pools of teal, violet, and amber blend into a luminous setting, and intricate branches weave across the sheet, guiding the viewer through a hidden grove.",
-    "full": "images/full/figures-in-the-enchanted-grove.jpg",
-    "thumb": "images/thumb/figures-in-the-enchanted-grove.jpg",
+    "full": "images/full/figures-in-the-enchanted-grove.jpg?v=3",
+    "thumb": "images/thumb/figures-in-the-enchanted-grove.jpg?v=3",
     "w": 760,
-    "h": 458,
-    "fw": 1024,
-    "fh": 617
+    "h": 330,
+    "fw": 1800,
+    "fh": 781
   },
   {
     "no": 27,
@@ -479,12 +480,12 @@ window.HFB_ARTWORKS = [
     "signed": "30 Jan 2015",
     "category": "mixed",
     "description": "Conceived as an artistic scientific study, this piece presents scorpions, capybaras, giant ants, and arachnids against smooth airbrushed gradients. Precise white and black ink overlays, handwritten annotations, and species notes evoke a classic naturalist’s journal, with each subject rendered with care for form and texture.",
-    "full": "images/full/biodiversity-field-notes.jpg",
-    "thumb": "images/thumb/biodiversity-field-notes.jpg",
+    "full": "images/full/biodiversity-field-notes.jpg?v=3",
+    "thumb": "images/thumb/biodiversity-field-notes.jpg?v=3",
     "w": 760,
-    "h": 547,
-    "fw": 1024,
-    "fh": 737
+    "h": 533,
+    "fw": 1800,
+    "fh": 1263
   },
   {
     "no": 28,
@@ -497,12 +498,12 @@ window.HFB_ARTWORKS = [
     "signed": "19 Mar 2015",
     "category": "drawing",
     "description": "The reflective atmosphere of a city street in a sudden downpour, drawn in warm sepia with expressive shading that suggests rain-slicked pavement and glowing streetlights. Loose, atmospheric marks describe pedestrians with umbrellas and a passing cyclist; the monochrome palette emphasizes light, mood, and urban rhythm.",
-    "full": "images/full/rainy-boulevard-sketch.jpg",
-    "thumb": "images/thumb/rainy-boulevard-sketch.jpg",
+    "full": "images/full/rainy-boulevard-sketch.jpg?v=3",
+    "thumb": "images/thumb/rainy-boulevard-sketch.jpg?v=3",
     "w": 760,
-    "h": 570,
-    "fw": 1024,
-    "fh": 768
+    "h": 541,
+    "fw": 1800,
+    "fh": 1282
   },
   {
     "no": 29,
@@ -515,12 +516,12 @@ window.HFB_ARTWORKS = [
     "signed": "10 Mar 2015",
     "category": "water",
     "description": "A wet-on-wet watercolor landscape where rich cobalt and magenta bleed naturally into pale green fields. Dark, minimal brushstrokes along the ridge define tree lines and fencing without crowding the ethereal atmosphere, and the vibrant horizon conveys crisp morning air and open wilderness.",
-    "full": "images/full/emerald-mist-over-the-ridge.jpg",
-    "thumb": "images/thumb/emerald-mist-over-the-ridge.jpg",
+    "full": "images/full/emerald-mist-over-the-ridge.jpg?v=3",
+    "thumb": "images/thumb/emerald-mist-over-the-ridge.jpg?v=3",
     "w": 760,
-    "h": 392,
-    "fw": 1024,
-    "fh": 528
+    "h": 329,
+    "fw": 1800,
+    "fh": 778
   },
   {
     "no": 30,
@@ -533,12 +534,12 @@ window.HFB_ARTWORKS = [
     "signed": "2015",
     "category": "water",
     "description": "An abstract figurative landscape where calligraphic ink lines describe a procession of figures celebrating amid wild greenery. Washes of rose, turquoise, and warm ochre flow across the paper to create a festival-like mood, and the gestural figures convey spontaneous joy and connection.",
-    "full": "images/full/gathering-in-the-wild.jpg",
-    "thumb": "images/thumb/gathering-in-the-wild.jpg",
+    "full": "images/full/gathering-in-the-wild.jpg?v=3",
+    "thumb": "images/thumb/gathering-in-the-wild.jpg?v=3",
     "w": 760,
-    "h": 437,
-    "fw": 1024,
-    "fh": 589
+    "h": 338,
+    "fw": 1800,
+    "fh": 801
   },
   {
     "no": 31,
@@ -551,12 +552,12 @@ window.HFB_ARTWORKS = [
     "signed": "10 Mar 2015",
     "category": "mixed",
     "description": "A pop-art-influenced layered piece pairing fine ink portraits of primates and characters with stamped block lettering and expressive acrylic washes. Overlapping violet, pink, and teal grounds give textural depth beneath detailed white line overlays and typography, exploring media saturation, expression, and wildlife portraiture.",
-    "full": "images/full/gorilla-typography-collage.jpg",
-    "thumb": "images/thumb/gorilla-typography-collage.jpg",
+    "full": "images/full/gorilla-typography-collage.jpg?v=3",
+    "thumb": "images/thumb/gorilla-typography-collage.jpg?v=3",
     "w": 760,
-    "h": 384,
-    "fw": 1024,
-    "fh": 518
+    "h": 336,
+    "fw": 1800,
+    "fh": 795
   },
   {
     "no": 32,
@@ -569,8 +570,8 @@ window.HFB_ARTWORKS = [
     "signed": null,
     "category": "paint",
     "description": "A dramatic apocalyptic scene: a glowing red sky of swirling clouds, silhouetted bats, and descending aircraft. Dark architectural ruins and spires frame a central figure overlooking the burning horizon, and saturated layers of red, purple, and black create tension, atmosphere, and cinematic depth.",
-    "full": "images/full/the-crimson-descent.jpg",
-    "thumb": "images/thumb/the-crimson-descent.jpg",
+    "full": "images/full/the-crimson-descent.jpg?v=3",
+    "thumb": "images/thumb/the-crimson-descent.jpg?v=3",
     "w": 570,
     "h": 760,
     "fw": 1350,

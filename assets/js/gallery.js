@@ -61,12 +61,13 @@
   function card(a, i) {
     return '<article class="card" data-cat="' + a.category + '" style="animation-delay:' + Math.min(i * 40, 600) + 'ms">' +
       '<button type="button" class="card-media" data-open="' + a.slug + '" aria-label="View ' + esc(a.title) + '">' +
-      '<img src="' + a.thumb + '" width="' + a.w + '" height="' + a.h + '" alt="' + esc(a.title) + ', ' + esc(a.medium.toLowerCase()) + '" loading="' + (i < 6 ? "eager" : "lazy") + '" decoding="async">' +
+      '<img src="' + a.thumb + '" width="' + a.w + '" height="' + a.h + '" alt="' + esc(a.title) + (a.subtitle ? ' (' + esc(a.subtitle.toLowerCase()) + ')' : '') + ', ' + esc(a.medium.toLowerCase()) + '" loading="' + (i < 6 ? "eager" : "lazy") + '" decoding="async">' +
       '<span class="card-no">No. ' + String(a.no).padStart(2, "0") + "</span></button>" +
       '<div class="card-body">' +
       '<span class="tag"><span class="dot" aria-hidden="true"></span>' + esc(catLabel[a.category]) + "</span>" +
       '<div class="card-top"><h3><button type="button" data-open="' + a.slug + '">' + esc(a.title) + "</button></h3>" +
       '<span class="price">' + H.money(a.price) + "</span></div>" +
+      (a.subtitle ? '<p class="subtitle">' + esc(a.subtitle) + "</p>" : "") +
       '<p class="card-meta">' + esc(a.medium) + "<br>" + esc(a.sizeCm) + " (" + esc(a.sizeIn) + ")" + (a.signed ? " · Signed " + esc(a.signed) : "") + "</p>" +
       '<div class="card-actions">' + addBtn(a) + "</div></div></article>";
   }
@@ -161,7 +162,7 @@
     var idx = seq.findIndex(function (x) { return x.slug === slug; });
 
     lbImg.src = a.thumb; // show the cached thumbnail instantly, then swap in the large file
-    lbImg.alt = a.title + ", " + a.medium.toLowerCase();
+    lbImg.alt = a.title + (a.subtitle ? " (" + a.subtitle.toLowerCase() + ")" : "") + ", " + a.medium.toLowerCase();
     lbImg.width = a.fw; lbImg.height = a.fh;
     var big = new Image();
     big.onload = function () { if (current === slug) lbImg.src = a.full; };
@@ -174,6 +175,7 @@
     lbInfo.innerHTML =
       '<div data-cat="' + a.category + '"><span class="tag"><span class="dot" aria-hidden="true"></span>No. ' + String(a.no).padStart(2, "0") + " · " + esc(catLabel[a.category]) + "</span></div>" +
       '<h2 id="lb-title">' + esc(a.title) + "</h2>" +
+      (a.subtitle ? '<p class="subtitle subtitle-lg">' + esc(a.subtitle) + "</p>" : "") +
       '<div class="lb-price">' + H.money(a.price) + "<small>Original · one of a kind</small></div>" +
       '<div class="lb-actions">' +
       '<a class="btn btn-red" href="' + H.smsHref(msg) + '">' + icon("message") + "Text to buy</a>" +

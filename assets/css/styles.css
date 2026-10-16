@@ -295,6 +295,8 @@ section[id], [id="your-list"] { scroll-margin-top: 84px; }
 .card h3 button:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
 .card h3 button:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; border-radius: 4px; }
 .price { font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; white-space: nowrap; }
+.subtitle { margin: 4px 0 0; font-family: var(--font-display); font-style: italic; font-size: 1rem; color: var(--red-ink); }
+.subtitle-lg { margin: -10px 0 0; font-size: 1.15rem; }
 .card-meta { margin: 6px 0 14px; color: var(--muted); font-size: .88rem; line-height: 1.45; }
 .card-actions { display: flex; gap: 8px; }
 
