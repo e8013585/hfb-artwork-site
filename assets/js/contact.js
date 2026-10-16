@@ -30,7 +30,7 @@
         total += a.price;
         return '<li class="inq-item">' +
           '<a href="./#art=' + a.slug + '"><img src="' + a.thumb + '" alt="" loading="lazy"></a>' +
-          "<div><h3>" + esc(a.title) + "</h3><p>No. " + String(a.no).padStart(2, "0") + " · " + esc(a.size) + " · " + H.money(a.price) + "</p></div>" +
+          "<div><h3>" + esc(a.title) + "</h3><p>No. " + String(a.no).padStart(2, "0") + " · " + esc(a.sizeCm) + " (" + esc(a.sizeIn) + ") · " + H.money(a.price) + "</p></div>" +
           '<button type="button" class="remove-btn" data-remove="' + a.slug + '" aria-label="Remove ' + esc(a.title) + ' from list">' + icon("trash") + "</button>" +
           "</li>";
       }).join("") + "</ul>" +

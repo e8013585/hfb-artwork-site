@@ -67,7 +67,7 @@
       '<span class="tag"><span class="dot" aria-hidden="true"></span>' + esc(catLabel[a.category]) + "</span>" +
       '<div class="card-top"><h3><button type="button" data-open="' + a.slug + '">' + esc(a.title) + "</button></h3>" +
       '<span class="price">' + H.money(a.price) + "</span></div>" +
-      '<p class="card-meta">' + esc(a.medium) + "<br>" + esc(a.size) + (a.signed ? " · Signed " + esc(a.signed) : "") + "</p>" +
+      '<p class="card-meta">' + esc(a.medium) + "<br>" + esc(a.sizeCm) + " (" + esc(a.sizeIn) + ")" + (a.signed ? " · Signed " + esc(a.signed) : "") + "</p>" +
       '<div class="card-actions">' + addBtn(a) + "</div></div></article>";
   }
 
@@ -182,9 +182,9 @@
       '<p class="lb-desc">' + esc(a.description) + "</p>" +
       '<dl class="specs">' +
       "<dt>" + icon("brush") + "Medium</dt><dd>" + esc(a.medium) + "</dd>" +
-      "<dt>" + icon("ruler") + "Size</dt><dd>" + esc(a.size) + " <span style=\"color:var(--muted)\">(" + esc(a.sizeMetric) + ")</span> · approx.</dd>" +
+      "<dt>" + icon("ruler") + "Size</dt><dd>" + esc(a.sizeCm) + " <span style=\"color:var(--muted)\">(" + esc(a.sizeIn) + ")</span></dd>" +
       (a.signed ? "<dt>" + icon("pen") + "Signed</dt><dd>Signed &amp; dated " + esc(a.signed) + "</dd>" : "") +
-      "<dt>" + icon("frame") + "Framing</dt><dd>Sold unframed — looks great in a 16 × 20 in matted frame</dd>" +
+      "<dt>" + icon("frame") + "Framing</dt><dd>Sold unframed — ready for a mat and frame of your choice</dd>" +
       "</dl>";
 
     if (history.replaceState) history.replaceState(null, "", "#art=" + slug);

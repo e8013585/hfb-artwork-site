@@ -1,3 +1,7 @@
 .claude/
 Thumbs.db
 .DS_Store
+
+# Private working files (kept locally, not published)
+listing-drafts.txt
+updated_names/
