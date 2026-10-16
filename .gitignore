@@ -7,3 +7,7 @@ listing-drafts.txt
 updated_names/
 paintings/
 backgrounds-removed/
+
+# Retired images, kept locally only
+redundant/*
+!redundant/.gitkeep

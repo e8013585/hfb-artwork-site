@@ -149,6 +149,23 @@
   var current = null;
   var returnFocus = null;
 
+  // Loads each source in turn and swaps it in, abandoning the chain (and its download) once the artwork changes.
+  var pending = null;
+  function cancelUpgrade() {
+    if (pending) { pending.onload = pending.onerror = null; pending.src = ""; pending = null; }
+  }
+  function upgrade(slug, srcs) {
+    cancelUpgrade();
+    if (!srcs.length) return;
+    var img = pending = new Image();
+    img.onload = function () {
+      if (current !== slug) return;
+      lbImg.src = srcs[0];
+      upgrade(slug, srcs.slice(1));
+    };
+    img.src = srcs[0];
+  }
+
   function sequence() {
     // Navigate within the currently filtered view when the piece is in it, otherwise the full catalog.
     return visible.some(function (a) { return a.slug === current; }) ? visible : ART;
@@ -161,13 +178,12 @@
     var seq = sequence();
     var idx = seq.findIndex(function (x) { return x.slug === slug; });
 
-    lbImg.src = a.thumb; // show the cached thumbnail instantly, then swap in the large file
+    // Show the cached thumbnail instantly, then the large file, then the full-resolution file for zooming in.
+    lbImg.src = a.thumb;
     lbImg.alt = a.title + (a.subtitle ? " (" + a.subtitle.toLowerCase() + ")" : "") + ", " + a.medium.toLowerCase();
     lbImg.width = a.fw; lbImg.height = a.fh;
-    var big = new Image();
-    big.onload = function () { if (current === slug) lbImg.src = a.full; };
-    big.src = a.full;
-    lbFull.href = a.full;
+    upgrade(slug, [a.full, a.hires]);
+    lbFull.href = a.hires;
 
     lbCounter.textContent = (idx + 1) + " / " + seq.length;
 
@@ -219,6 +235,7 @@
   });
   dlg.addEventListener("close", function () {
     current = null;
+    cancelUpgrade();
     document.title = "Artwork by HFB — Original Paintings & Drawings";
     if (history.replaceState) history.replaceState(null, "", location.pathname + location.search);
     if (returnFocus && document.contains(returnFocus)) returnFocus.focus();

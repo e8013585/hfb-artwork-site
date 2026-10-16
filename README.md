@@ -16,6 +16,7 @@ Live site: https://e8013585.github.io/hfb-artwork-site/
 | `assets/js/gallery.js` / `contact.js` | Page-specific behaviour |
 | `assets/img/` | Logo/favicon, icon sprite, social preview image |
 | `images/full`, `images/thumb` | Web-optimized transparent WebP artwork images generated from the background-removed PNGs (kept locally in `backgrounds-removed/`, not published) |
-| `redundant/` | Retired image files no longer used by the site (original `art (N).jpeg` photos and the old JPEG web images) |
+| `images/hires` | Full-resolution WebPs, loaded only when a visitor opens an artwork (and by its "Full size" link) |
+| `redundant/` | Local folder for retired image files; its contents are ignored by git |
 
 Plain HTML, CSS and JavaScript with no build step, so GitHub Pages serves it as-is from the `main` branch.
